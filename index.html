@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-minimalscrollbar="yes">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-    <title>BrightBlogSite</title>
+    <title>Ratatouille Recipe - No Sweat Nutrition</title>
 </head>
 <body>
-    <header>
-        <h1>
-            BrightBlog
-        </h1>
+    <header id="main-header">
+        <img id="nsn_logo" src="NSN_logo_cutout.png">
         <nav>
             <ul>
                 <li>
-                    <a href="">
+                    <a href class="header-navbutton">
                     Home
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href class="header-navbutton">
                     About Us
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href class="header-navbutton">
                     Contact
                     </a>
                 </li>
@@ -34,26 +33,121 @@
     </header>
     <main>
         <article>
+            <section id="intro">
             <header>
-                <!-- Article's header goes here -->
-                 <h2>
-                    Ten Amusing Facts About Dogs
-                 </h2>
-                 <h3>
-                    Read time: 5 minutes
-                 </h3>
+                <h1>Ratatouille Recipe</h1>
             </header>
             <main>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero consequatur tempora veritatis facilis! Aspernatur mollitia quia reprehenderit tempora ad ducimus, explicabo illo doloremque perferendis molestias maiores molestiae porro iusto ut nisi consequuntur commodi quod sint nam deleniti, a at. Ducimus omnis tenetur officiis optio quia cum obcaecati quisquam magni, voluptatem earum molestiae ut odio at, eum laborum culpa sed commodi possimus vero eligendi necessitatibus voluptates, maiores aut exercitationem? Nisi sint perferendis voluptatem eum blanditiis officia consequuntur optio voluptas, aliquid voluptatum ab dolorum? Quibusdam temporibus iusto obcaecati dolorem quasi officiis dicta quas sint recusandae in illo nemo, aut eius, provident quis?</p>
+                <p>Ratatouille is a cheap, healthy and tasty dish which can be enjoyed all year round. It makes a great side dish, but can also be used as a pasta sauce, or can be served with crusty bread for a light main meal.</p>
+                <p>Originally, ratatouille was considered as a peasant's dish due to its preparation and versatility. Now, however, it is made in some of the finest restaurants in the world.</p>
+                <p>This recipe will teach you how to make the <em>tastiest</em> restaurant-quality ratatouille.</p>
+            </section>
+                <section id="ingr-section">
+                    <div>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>2 tbsp olive oil</li>
+                        <li>1 medium-large aubergine, cut into 2cm chunks</li>
+                        <li>3 small courgettes, sliced into moons</li>
+                        <li>1 large red onion, roughly chopped</li>
+                        <li>4 cloves garlic, minced or grated</li>
+                        <li>2x 400g tins of chopped tomatoes      </li>
+                        <li>1 tbsp balsamic vinegar</li>
+                        <li>handful of fresh basil, chopped</li>
+                        <li> salt and pepper to taste</li>
+                    </ul>
+                    </div>
+                    <div id="ingr-grid">
+                    <img class="ingredients" id="item-1" src="olive-oil.jpg" alt="a glass jug of olive oil next to a bowl of green and black olives">
+                    <img class="ingredients" id="item-2" src="aubergine.jpg" alt="an aubergine">
+                    <img class="ingredients" id="item-3" src="courgettes.jpg" alt="three courgettes">
+                    <img class="ingredients" id="item-4" src="onion.jfif" alt="a red onion slice in half">
+                    <img class="ingredients" id="item-5" src="garlic.jpg" alt="bulbs and cloves of garlic">
+                    <img class="ingredients" id="item-6" src="tomatoes.jpg" alt="chopped tomatoes in a tin">
+                    <img class="ingredients" id="item-7" src="balsamic.jpg" alt="balsamic vinegar in a small glass bowl">
+                    <img class="ingredients" id="item-8" src="basil.jpg" alt="a stalk of green basil">
+                    </div>
+                    </section>
+                    <section id="serve-with-section">
+                        <div>
+                    <h3>Serve with:</h3>
+                    <ul>
+                        <li>Parmesan cheese, grated and sprinkled on top</li>
+                        <li>Crusty bread</li>
+                    </ul>
+                    </div>
+                    <div id="serve-grid">
+                    <img class="ingredients" id="item-9" src="bread.jpg" alt="a loaf of crusty bread with a slice cut out of it">
+                    <img class="ingredients" id="item-10" src="cheese.jfif" alt="a block of parmesan cheese">
+                    </div>
+                </section>
+                <section id="methods-section">
+                    <div>
+                    <h3>Method:</h3>
+                    <ol>
+                        <li>On a low heat, add the olive oil and onions to a large saucepan and sweat the onions until they are softened.</li>
+                        <br>
+                        <li>Add the chopped aubergine and courgettes and continue to cook on a low heat until soft.</li>
+                        <br>
+                        <li>Add the tomatoes, garlic, basil, balsamic vinegar, salt, and pepper to the pan and turn up the heat to medium. Simmer the ratatouille for 30 minutes until the tomatoes are cooked. Stir occasionally during simmering to prevent the vegetables from sticking to the bottom of the pan.</li>
+                        <br>
+                        <li>Serve with a sprinkling of freshly grated parmesan cheese and some crusty bread.</li>
+                    </ol>
+                    </div>
+                    <div>
+                        <img id="ratatouille" src="ratatouille.jpg" alt="cooked ratatouille in the pot">
+                    </div>
+                </section>
             </main>
             <footer>
-
+                <h5>Author: Developer Ames<br>Last posted: 13-09-2024</h5>
             </footer>
         </article>
-        <!-- the content of the main section goes here -->
+        <section id="com-section">
+            <h3>Comments</h3>
+            <p>Loved this recipe?<br>Have any tips to share? <br>Leave a comment below for other ratatouille lovers!</p>
+            <form action method>
+                <label for="name" class="comments-label">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Ratatouille Lover" required>
+                <br>
+                <label for="comments" class="comments-label">Comments:</label>
+                <br>
+                <textarea name="comments" id="comments" cols="50" rows="5" placeholder="This is the best ratatouille recipe ever!..." required></textarea>
+                <br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+            </section>
     </main>
-    <footer>
-        <!-- the footer goes here -->
+    <footer id="main-footer">
+        <div>
+        <img id="footer-logo" src="NSN_logo.png">
+        </div>
+        <div>
+            <nav>
+                <ul id="footer-ul">
+                        <li><a href="" class="footer-navbutton">Home</a></li>
+                        <br>
+                        <li><a href="" class="footer-navbutton">About No-Sweat Nutrition</a></li>
+                        <br>
+                        <li><a href="" class="footer-navbutton">Contact Us</a></li>
+                        <br>
+                        <li><a href="" class="footer-navbutton">No-Sweat Nutrition Careers</a></li>
+                    </div>
+                    <div>
+                        <nav>
+                            <ul>
+                        <li><a href="" class="footer-navbutton">Privacy Policy</a></li>
+                        <br>
+                        <li><a href="" class="footer-navbutton">Terms &amp; Conditions</a></li>
+                        <br>
+                        <li><a href="" class="footer-navbutton">Cookie Policy</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </ul>
+            </nav>
+        </section>
     </footer>
 </body>
 </html>

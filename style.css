@@ -1,0 +1,179 @@
+html {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(142, 4, 50);
+    margin: 0px;
+    color: white;
+    font-family: Barlow, Helvetica;
+}
+
+#nsn_logo {
+    width: 13%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    display: flex;
+    }
+
+#main-header {
+    background-color: white;
+    width:100%;
+    height: 2%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    }
+
+.header-navbutton {
+    text-decoration: none;
+    color: rgb(142,4,50);
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin: 1.5vw;
+    padding: 2vh;
+    border: 1px solid rgb(70, 70, 70);
+    outline: 1px solid rgb(70,70,70);
+    outline-offset: 2px;
+}
+
+body > main {
+    width: 90%;
+    margin: auto;
+}
+
+#intro {
+    padding: 2% 0%;
+}
+
+h1 {
+    font-size: 2.5vw;
+    font-weight: lighter;
+    text-decoration: underline overline 2px;
+}
+
+p h3 li {
+    font-size: 1.5vw;
+}
+
+.ingredients {
+    width: 60%;
+}
+
+#ingr-section, #serve-with-section, #com-section {
+    background-color: white;
+    margin: 0vw -4.8vw;
+    padding: 2% 5%;
+    color: black;
+}
+
+#ingr-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ingr-grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 4em;
+    justify-items: stretch;
+}
+
+#serve-with-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#serve-grid {
+    width: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3em;
+    justify-items: stretch;
+}
+
+ol > li {
+    max-width: 70ch;
+}
+
+#methods-section {
+    padding: 2% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ratatouille {
+    max-width: 100%;
+    width: 30rem;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    outline: 1px solid rgb(0, 0, 0);
+    outline-offset: 2px;
+    margin-top: 3em;
+}
+
+h5 {
+    font-size: 2vh;
+    padding-left: 5%;
+}
+
+#com-section {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+h3 {
+    text-decoration: underline overline 2px;
+}
+
+#name, #comments {
+    border: 1px solid rgb(70, 70, 70);
+    outline: 1px solid rgb(70, 70, 70);
+    outline-offset: 2px;
+    margin: 1.5%;
+}
+
+.comments-label {
+    font-weight: bold;
+}
+
+#submit {
+    font-family: Barlow;
+    font-weight: bold;
+    padding: 1.3%;
+    border: 1px solid rgb(70,70,70);
+    outline: 1px solid rgb(70, 70, 70);
+    outline-offset: 2px;
+}
+
+#main-footer {
+    width: 90%;
+    margin: auto;
+}
+
+#footer-logo {
+    width: 20%;
+    padding: 4% 0%;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main-footer nav ul {
+    list-style: none;
+}
+
+.footer-navbutton {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
